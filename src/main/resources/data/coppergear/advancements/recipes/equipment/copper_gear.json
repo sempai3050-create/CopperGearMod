@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_copper_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:copper_ingot"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_copper_ingot"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "coppergear:copper_helmet",
+      "coppergear:copper_chestplate",
+      "coppergear:copper_leggings",
+      "coppergear:copper_boots",
+      "coppergear:copper_sword",
+      "coppergear:copper_pickaxe",
+      "coppergear:copper_axe",
+      "coppergear:copper_shovel",
+      "coppergear:copper_hoe"
+    ]
+  }
+}
